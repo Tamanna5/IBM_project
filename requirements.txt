@@ -1,0 +1,36 @@
+# requirements.txt
+# House Price Prediction — King County
+# Author: Kalariya Tamanna
+#
+# Install:
+#   macOS only (run first to avoid Xcode build error):
+#       pip3 install argon2-cffi-bindings --only-binary=:all:
+#   Then:
+#       pip3 install -r requirements.txt
+
+# Core data libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning
+scikit-learn==1.9.1
+joblib>=1.3.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Frontend dashboard
+streamlit>=1.30.0
+
+# Explainability (optional — for SHAP chart in Model Performance page)
+# Note: requires compatible numpy version. Install separately if needed:
+#   pip install shap
+shap>=0.44.0
+
+# Jupyter Notebook
+argon2-cffi-bindings>=21.2.0
+notebook>=7.0.0
+ipykernel>=6.20.0
+nbformat>=5.9.0
